@@ -14,34 +14,25 @@ const winston = createLogger({
     transports:[new transports.File({filename:'AppLogs.json'}), new transports.Console()]
 })
 const {MailClient} = require("glovaro-mailclient")
+//const { default: s } = require("fluent-json-schema")
 
 const mail = MailClient.instance()
 
+// mail.on("SendError", (er)=>{
+//     winston.error(er)
+// })
 
+// === MODULES  ===== //
 Startup.registerModule("mail", mail)
 Startup.registerModule("logger", winston)
-// using it here to setup services and modules needed by the application
-//Startup.registerModule("winston", winston)
-//Startup.registerModule("mail", mail)
-function routes() {
-    fastify.post('/upload', async (req, rep)=>{
-        const data =  (await req.saveRequestFiles())[0]
-        let obj = {
-            fieldname: data["filedname"],
-            filename: data["filename"],    
-            encoding: data["encoding"],
-            mimetype: data["mimetype"],
-            filePath: data["filepath"],
-            fields: data["fields"]
-        }
-        rep.send({data:obj})
-    })
-}
+
+
+
 
 
 Startup.AddService("fastify-swagger",swagger.options)
-//fastify.register(require("fastify-swagger"), swagger.options)
-routes()
+fastify.register(require("./routes/EmailRoutes"), {prefix:'/v1/api/mail'})
+
 
 function AppServiceHost(port, hostname) {
     const _port = port

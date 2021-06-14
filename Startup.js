@@ -36,16 +36,32 @@ function StartUp(fastify) {
         }
     }
 
+    function handler(handlerSignature, isAsync=true, ...args) {
+        if(isAsync) {
+            return async (args)=> handlerSignature
+        }
+
+        return (args)=>handlerSignature
+    }
+
     const Types = {
         "string": s.string(),
         "int":s.number(),
         "array":s.array(),
+        "object":s.object(),
         "midex": function(mixed=[]) {
             return s.mixed(mixed)
         },
         "enum": (items)=>{
             return s.enum(Object.values(items))
         }
+    }
+    const HttpMethod = {
+        GET: "GET",
+        POST:"POST",
+        PUT:"PUT",
+        HEAD:"HEAD",
+        PATCH:"PATCH"
     }
     function generateUrlSchema(description, categories, 
             params=null, query=null, body=null) {
@@ -88,6 +104,9 @@ function StartUp(fastify) {
         return (_items.find(x=>x["Name"] == name)) != null
     }
     return {
+        HttpMethod,
+        handler,
+        generateUrlSchema,
         Types,
         registerRoutes,
         _items,

@@ -150,3 +150,151 @@
 {"level":30,"time":1623649835550,"pid":24336,"hostname":"433570342LS3L","msg":"Server listening at http://127.0.0.1:3200"}
 {"level":30,"time":1623649835556,"pid":24336,"hostname":"433570342LS3L","msg":"server listening on http://127.0.0.1:3200 at:->Mon Jun 14 2021 "}
 {"level":50,"time":1623649835558,"pid":24336,"hostname":"433570342LS3L","msg":"null"}
+{"level":50,"time":1623653330232,"pid":25340,"hostname":"433570342LS3L","msg":"{\"code\":\"ERR_AVVIO_PLUGIN_TIMEOUT\"}"}
+{"level":50,"time":1623653364954,"pid":8344,"hostname":"433570342LS3L","msg":"{\"code\":\"ERR_AVVIO_PLUGIN_TIMEOUT\"}"}
+{"level":50,"time":1623653400716,"pid":14224,"hostname":"433570342LS3L","msg":"{\"code\":\"ERR_AVVIO_PLUGIN_TIMEOUT\"}"}
+{"level":50,"time":1623653441796,"pid":23068,"hostname":"433570342LS3L","msg":"{\"code\":\"ERR_AVVIO_PLUGIN_TIMEOUT\"}"}
+{"level":50,"time":1623653486429,"pid":22908,"hostname":"433570342LS3L","msg":"{\"code\":\"ERR_AVVIO_PLUGIN_TIMEOUT\"}"}
+{"level":30,"time":1623653512218,"pid":1400,"hostname":"433570342LS3L","msg":"Server listening at http://127.0.0.1:3200"}
+{"level":30,"time":1623653512225,"pid":1400,"hostname":"433570342LS3L","msg":"server listening on http://127.0.0.1:3200 at:->Mon Jun 14 2021 "}
+{"level":50,"time":1623653512227,"pid":1400,"hostname":"433570342LS3L","msg":"null"}
+{"level":30,"time":1623653526460,"pid":1400,"hostname":"433570342LS3L","reqId":"req-1","req":{"method":"GET","url":"/swagger","hostname":"127.0.0.1:3200","remoteAddress":"127.0.0.1","remotePort":54753},"msg":"incoming request"}
+{"level":30,"time":1623653526464,"pid":1400,"hostname":"433570342LS3L","reqId":"req-1","res":{"statusCode":302},"responseTime":3.60080000013113,"msg":"request completed"}
+{"level":30,"time":1623653526469,"pid":1400,"hostname":"433570342LS3L","reqId":"req-2","req":{"method":"GET","url":"/swagger/static/index.html","hostname":"127.0.0.1:3200","remoteAddress":"127.0.0.1","remotePort":54753},"msg":"incoming request"}
+{"level":30,"time":1623653526474,"pid":1400,"hostname":"433570342LS3L","reqId":"req-2","res":{"statusCode":304},"responseTime":4.674899995326996,"msg":"request completed"}
+{"level":30,"time":1623653526491,"pid":1400,"hostname":"433570342LS3L","reqId":"req-3","req":{"method":"GET","url":"/swagger/static/swagger-ui.css","hostname":"127.0.0.1:3200","remoteAddress":"127.0.0.1","remotePort":54753},"msg":"incoming request"}
+{"level":30,"time":1623653526493,"pid":1400,"hostname":"433570342LS3L","reqId":"req-4","req":{"method":"GET","url":"/swagger/static/swagger-ui-standalone-preset.js","hostname":"127.0.0.1:3200","remoteAddress":"127.0.0.1","remotePort":64827},"msg":"incoming request"}
+{"level":30,"time":1623653526494,"pid":1400,"hostname":"433570342LS3L","reqId":"req-5","req":{"method":"GET","url":"/swagger/static/swagger-ui-bundle.js","hostname":"127.0.0.1:3200","remoteAddress":"127.0.0.1","remotePort":51114},"msg":"incoming request"}
+{"level":30,"time":1623653526495,"pid":1400,"hostname":"433570342LS3L","reqId":"req-3","res":{"statusCode":304},"responseTime":3.404600001871586,"msg":"request completed"}
+{"level":30,"time":1623653526496,"pid":1400,"hostname":"433570342LS3L","reqId":"req-4","res":{"statusCode":304},"responseTime":2.569099999964237,"msg":"request completed"}
+{"level":30,"time":1623653526497,"pid":1400,"hostname":"433570342LS3L","reqId":"req-5","res":{"statusCode":304},"responseTime":2.9271000027656555,"msg":"request completed"}
+{"level":30,"time":1623653526758,"pid":1400,"hostname":"433570342LS3L","reqId":"req-6","req":{"method":"GET","url":"/swagger/static/swagger-ui.css","hostname":"127.0.0.1:3200","remoteAddress":"127.0.0.1","remotePort":51114},"msg":"incoming request"}
+{"level":30,"time":1623653526760,"pid":1400,"hostname":"433570342LS3L","reqId":"req-6","res":{"statusCode":304},"responseTime":2.0129000023007393,"msg":"request completed"}
+{"level":30,"time":1623653526761,"pid":1400,"hostname":"433570342LS3L","reqId":"req-7","req":{"method":"GET","url":"/swagger/static/swagger-ui-bundle.js","hostname":"127.0.0.1:3200","remoteAddress":"127.0.0.1","remotePort":64827},"msg":"incoming request"}
+{"level":30,"time":1623653526763,"pid":1400,"hostname":"433570342LS3L","reqId":"req-8","req":{"method":"GET","url":"/swagger/static/swagger-ui-standalone-preset.js","hostname":"127.0.0.1:3200","remoteAddress":"127.0.0.1","remotePort":54753},"msg":"incoming request"}
+{"level":30,"time":1623653526764,"pid":1400,"hostname":"433570342LS3L","reqId":"req-7","res":{"statusCode":304},"responseTime":2.1943999975919724,"msg":"request completed"}
+{"level":30,"time":1623653526765,"pid":1400,"hostname":"433570342LS3L","reqId":"req-8","res":{"statusCode":304},"responseTime":1.6564999967813492,"msg":"request completed"}
+{"level":30,"time":1623653526937,"pid":1400,"hostname":"433570342LS3L","reqId":"req-9","req":{"method":"GET","url":"/swagger/uiConfig","hostname":"127.0.0.1:3200","remoteAddress":"127.0.0.1","remotePort":54753},"msg":"incoming request"}
+{"level":30,"time":1623653526938,"pid":1400,"hostname":"433570342LS3L","reqId":"req-9","res":{"statusCode":200},"responseTime":0.6049000024795532,"msg":"request completed"}
+{"level":30,"time":1623653526972,"pid":1400,"hostname":"433570342LS3L","reqId":"req-a","req":{"method":"GET","url":"/swagger/initOAuth","hostname":"127.0.0.1:3200","remoteAddress":"127.0.0.1","remotePort":54753},"msg":"incoming request"}
+{"level":30,"time":1623653526973,"pid":1400,"hostname":"433570342LS3L","reqId":"req-a","res":{"statusCode":200},"responseTime":0.34140000492334366,"msg":"request completed"}
+{"level":30,"time":1623653526973,"pid":1400,"hostname":"433570342LS3L","reqId":"req-b","req":{"method":"GET","url":"/swagger/json","hostname":"127.0.0.1:3200","remoteAddress":"127.0.0.1","remotePort":64827},"msg":"incoming request"}
+{"level":30,"time":1623653526977,"pid":1400,"hostname":"433570342LS3L","reqId":"req-b","res":{"statusCode":200},"responseTime":3.889800004661083,"msg":"request completed"}
+{"level":30,"time":1623653602054,"pid":23648,"hostname":"433570342LS3L","msg":"Server listening at http://127.0.0.1:3200"}
+{"level":30,"time":1623653602060,"pid":23648,"hostname":"433570342LS3L","msg":"server listening on http://127.0.0.1:3200 at:->Mon Jun 14 2021 "}
+{"level":50,"time":1623653602063,"pid":23648,"hostname":"433570342LS3L","msg":"null"}
+{"level":30,"time":1623653621432,"pid":23648,"hostname":"433570342LS3L","reqId":"req-1","req":{"method":"GET","url":"/swagger","hostname":"127.0.0.1:3200","remoteAddress":"127.0.0.1","remotePort":52053},"msg":"incoming request"}
+{"level":30,"time":1623653621436,"pid":23648,"hostname":"433570342LS3L","reqId":"req-1","res":{"statusCode":302},"responseTime":3.1990000009536743,"msg":"request completed"}
+{"level":30,"time":1623653621440,"pid":23648,"hostname":"433570342LS3L","reqId":"req-2","req":{"method":"GET","url":"/swagger/static/index.html","hostname":"127.0.0.1:3200","remoteAddress":"127.0.0.1","remotePort":52053},"msg":"incoming request"}
+{"level":30,"time":1623653621443,"pid":23648,"hostname":"433570342LS3L","reqId":"req-2","res":{"statusCode":304},"responseTime":3.5317999944090843,"msg":"request completed"}
+{"level":30,"time":1623653621480,"pid":23648,"hostname":"433570342LS3L","reqId":"req-3","req":{"method":"GET","url":"/swagger/static/swagger-ui.css","hostname":"127.0.0.1:3200","remoteAddress":"127.0.0.1","remotePort":52053},"msg":"incoming request"}
+{"level":30,"time":1623653621481,"pid":23648,"hostname":"433570342LS3L","reqId":"req-3","res":{"statusCode":304},"responseTime":1.1678000018000603,"msg":"request completed"}
+{"level":30,"time":1623653621489,"pid":23648,"hostname":"433570342LS3L","reqId":"req-4","req":{"method":"GET","url":"/swagger/static/swagger-ui-bundle.js","hostname":"127.0.0.1:3200","remoteAddress":"127.0.0.1","remotePort":52053},"msg":"incoming request"}
+{"level":30,"time":1623653621490,"pid":23648,"hostname":"433570342LS3L","reqId":"req-5","req":{"method":"GET","url":"/swagger/static/swagger-ui-standalone-preset.js","hostname":"127.0.0.1:3200","remoteAddress":"127.0.0.1","remotePort":51255},"msg":"incoming request"}
+{"level":30,"time":1623653621492,"pid":23648,"hostname":"433570342LS3L","reqId":"req-4","res":{"statusCode":304},"responseTime":3.031599998474121,"msg":"request completed"}
+{"level":30,"time":1623653621494,"pid":23648,"hostname":"433570342LS3L","reqId":"req-5","res":{"statusCode":304},"responseTime":3.8111000061035156,"msg":"request completed"}
+{"level":30,"time":1623653621694,"pid":23648,"hostname":"433570342LS3L","reqId":"req-6","req":{"method":"GET","url":"/swagger/uiConfig","hostname":"127.0.0.1:3200","remoteAddress":"127.0.0.1","remotePort":51255},"msg":"incoming request"}
+{"level":30,"time":1623653621695,"pid":23648,"hostname":"433570342LS3L","reqId":"req-6","res":{"statusCode":200},"responseTime":0.9323999956250191,"msg":"request completed"}
+{"level":30,"time":1623653621730,"pid":23648,"hostname":"433570342LS3L","reqId":"req-7","req":{"method":"GET","url":"/swagger/initOAuth","hostname":"127.0.0.1:3200","remoteAddress":"127.0.0.1","remotePort":51255},"msg":"incoming request"}
+{"level":30,"time":1623653621731,"pid":23648,"hostname":"433570342LS3L","reqId":"req-7","res":{"statusCode":200},"responseTime":0.5480999946594238,"msg":"request completed"}
+{"level":30,"time":1623653621731,"pid":23648,"hostname":"433570342LS3L","reqId":"req-8","req":{"method":"GET","url":"/swagger/json","hostname":"127.0.0.1:3200","remoteAddress":"127.0.0.1","remotePort":52053},"msg":"incoming request"}
+{"level":30,"time":1623653621735,"pid":23648,"hostname":"433570342LS3L","reqId":"req-8","res":{"statusCode":200},"responseTime":3.8038000017404556,"msg":"request completed"}
+{"level":30,"time":1623653627542,"pid":23648,"hostname":"433570342LS3L","reqId":"req-9","req":{"method":"GET","url":"/swagger","hostname":"127.0.0.1:3200","remoteAddress":"127.0.0.1","remotePort":57499},"msg":"incoming request"}
+{"level":30,"time":1623653627542,"pid":23648,"hostname":"433570342LS3L","reqId":"req-9","res":{"statusCode":302},"responseTime":0.5927000045776367,"msg":"request completed"}
+{"level":30,"time":1623653627547,"pid":23648,"hostname":"433570342LS3L","reqId":"req-a","req":{"method":"GET","url":"/swagger/static/index.html","hostname":"127.0.0.1:3200","remoteAddress":"127.0.0.1","remotePort":57499},"msg":"incoming request"}
+{"level":30,"time":1623653627548,"pid":23648,"hostname":"433570342LS3L","reqId":"req-a","res":{"statusCode":304},"responseTime":0.6466000005602837,"msg":"request completed"}
+{"level":30,"time":1623653627572,"pid":23648,"hostname":"433570342LS3L","reqId":"req-b","req":{"method":"GET","url":"/swagger/static/swagger-ui.css","hostname":"127.0.0.1:3200","remoteAddress":"127.0.0.1","remotePort":57499},"msg":"incoming request"}
+{"level":30,"time":1623653627573,"pid":23648,"hostname":"433570342LS3L","reqId":"req-c","req":{"method":"GET","url":"/swagger/static/swagger-ui-bundle.js","hostname":"127.0.0.1:3200","remoteAddress":"127.0.0.1","remotePort":51728},"msg":"incoming request"}
+{"level":30,"time":1623653627574,"pid":23648,"hostname":"433570342LS3L","reqId":"req-b","res":{"statusCode":304},"responseTime":1.3311999961733818,"msg":"request completed"}
+{"level":30,"time":1623653627574,"pid":23648,"hostname":"433570342LS3L","reqId":"req-d","req":{"method":"GET","url":"/swagger/static/swagger-ui-standalone-preset.js","hostname":"127.0.0.1:3200","remoteAddress":"127.0.0.1","remotePort":62520},"msg":"incoming request"}
+{"level":30,"time":1623653627575,"pid":23648,"hostname":"433570342LS3L","reqId":"req-c","res":{"statusCode":304},"responseTime":1.914000004529953,"msg":"request completed"}
+{"level":30,"time":1623653627575,"pid":23648,"hostname":"433570342LS3L","reqId":"req-d","res":{"statusCode":304},"responseTime":0.9399999976158142,"msg":"request completed"}
+{"level":30,"time":1623653627641,"pid":23648,"hostname":"433570342LS3L","reqId":"req-e","req":{"method":"GET","url":"/swagger/uiConfig","hostname":"127.0.0.1:3200","remoteAddress":"127.0.0.1","remotePort":62520},"msg":"incoming request"}
+{"level":30,"time":1623653627642,"pid":23648,"hostname":"433570342LS3L","reqId":"req-e","res":{"statusCode":200},"responseTime":0.28779999911785126,"msg":"request completed"}
+{"level":30,"time":1623653627665,"pid":23648,"hostname":"433570342LS3L","reqId":"req-f","req":{"method":"GET","url":"/swagger/initOAuth","hostname":"127.0.0.1:3200","remoteAddress":"127.0.0.1","remotePort":62520},"msg":"incoming request"}
+{"level":30,"time":1623653627665,"pid":23648,"hostname":"433570342LS3L","reqId":"req-f","res":{"statusCode":200},"responseTime":0.2578999996185303,"msg":"request completed"}
+{"level":30,"time":1623653627666,"pid":23648,"hostname":"433570342LS3L","reqId":"req-g","req":{"method":"GET","url":"/swagger/json","hostname":"127.0.0.1:3200","remoteAddress":"127.0.0.1","remotePort":51728},"msg":"incoming request"}
+{"level":30,"time":1623653627666,"pid":23648,"hostname":"433570342LS3L","reqId":"req-g","res":{"statusCode":200},"responseTime":0.5283999964594841,"msg":"request completed"}
+{"level":30,"time":1623653681044,"pid":12824,"hostname":"433570342LS3L","msg":"Server listening at http://127.0.0.1:3200"}
+{"level":30,"time":1623653681050,"pid":12824,"hostname":"433570342LS3L","msg":"server listening on http://127.0.0.1:3200 at:->Mon Jun 14 2021 "}
+{"level":50,"time":1623653681052,"pid":12824,"hostname":"433570342LS3L","msg":"null"}
+{"level":30,"time":1623653686802,"pid":12824,"hostname":"433570342LS3L","reqId":"req-1","req":{"method":"GET","url":"/swagger","hostname":"127.0.0.1:3200","remoteAddress":"127.0.0.1","remotePort":65395},"msg":"incoming request"}
+{"level":30,"time":1623653686805,"pid":12824,"hostname":"433570342LS3L","reqId":"req-1","res":{"statusCode":302},"responseTime":2.7687999978661537,"msg":"request completed"}
+{"level":30,"time":1623653686808,"pid":12824,"hostname":"433570342LS3L","reqId":"req-2","req":{"method":"GET","url":"/swagger/static/index.html","hostname":"127.0.0.1:3200","remoteAddress":"127.0.0.1","remotePort":65395},"msg":"incoming request"}
+{"level":30,"time":1623653686811,"pid":12824,"hostname":"433570342LS3L","reqId":"req-2","res":{"statusCode":304},"responseTime":2.7172000035643578,"msg":"request completed"}
+{"level":30,"time":1623653686844,"pid":12824,"hostname":"433570342LS3L","reqId":"req-3","req":{"method":"GET","url":"/swagger/static/swagger-ui.css","hostname":"127.0.0.1:3200","remoteAddress":"127.0.0.1","remotePort":65395},"msg":"incoming request"}
+{"level":30,"time":1623653686846,"pid":12824,"hostname":"433570342LS3L","reqId":"req-3","res":{"statusCode":304},"responseTime":1.6596999987959862,"msg":"request completed"}
+{"level":30,"time":1623653686846,"pid":12824,"hostname":"433570342LS3L","reqId":"req-4","req":{"method":"GET","url":"/swagger/static/swagger-ui-bundle.js","hostname":"127.0.0.1:3200","remoteAddress":"127.0.0.1","remotePort":63343},"msg":"incoming request"}
+{"level":30,"time":1623653686850,"pid":12824,"hostname":"433570342LS3L","reqId":"req-5","req":{"method":"GET","url":"/swagger/static/swagger-ui-standalone-preset.js","hostname":"127.0.0.1:3200","remoteAddress":"127.0.0.1","remotePort":64666},"msg":"incoming request"}
+{"level":30,"time":1623653686851,"pid":12824,"hostname":"433570342LS3L","reqId":"req-4","res":{"statusCode":304},"responseTime":4.210100002586842,"msg":"request completed"}
+{"level":30,"time":1623653686852,"pid":12824,"hostname":"433570342LS3L","reqId":"req-5","res":{"statusCode":304},"responseTime":1.6691000014543533,"msg":"request completed"}
+{"level":30,"time":1623653686929,"pid":12824,"hostname":"433570342LS3L","reqId":"req-6","req":{"method":"GET","url":"/swagger/uiConfig","hostname":"127.0.0.1:3200","remoteAddress":"127.0.0.1","remotePort":64666},"msg":"incoming request"}
+{"level":30,"time":1623653686930,"pid":12824,"hostname":"433570342LS3L","reqId":"req-6","res":{"statusCode":200},"responseTime":0.6424999982118607,"msg":"request completed"}
+{"level":30,"time":1623653686963,"pid":12824,"hostname":"433570342LS3L","reqId":"req-7","req":{"method":"GET","url":"/swagger/initOAuth","hostname":"127.0.0.1:3200","remoteAddress":"127.0.0.1","remotePort":64666},"msg":"incoming request"}
+{"level":30,"time":1623653686963,"pid":12824,"hostname":"433570342LS3L","reqId":"req-7","res":{"statusCode":200},"responseTime":0.3889999985694885,"msg":"request completed"}
+{"level":30,"time":1623653686963,"pid":12824,"hostname":"433570342LS3L","reqId":"req-8","req":{"method":"GET","url":"/swagger/json","hostname":"127.0.0.1:3200","remoteAddress":"127.0.0.1","remotePort":63343},"msg":"incoming request"}
+{"level":30,"time":1623653686967,"pid":12824,"hostname":"433570342LS3L","reqId":"req-8","res":{"statusCode":200},"responseTime":3.666500002145767,"msg":"request completed"}
+{"level":30,"time":1623653821731,"pid":26192,"hostname":"433570342LS3L","msg":"Server listening at http://127.0.0.1:3200"}
+{"level":30,"time":1623653821737,"pid":26192,"hostname":"433570342LS3L","msg":"server listening on http://127.0.0.1:3200 at:->Mon Jun 14 2021 "}
+{"level":50,"time":1623653821740,"pid":26192,"hostname":"433570342LS3L","msg":"null"}
+{"level":30,"time":1623653828541,"pid":26192,"hostname":"433570342LS3L","reqId":"req-1","req":{"method":"GET","url":"/swagger","hostname":"127.0.0.1:3200","remoteAddress":"127.0.0.1","remotePort":65196},"msg":"incoming request"}
+{"level":30,"time":1623653828546,"pid":26192,"hostname":"433570342LS3L","reqId":"req-1","res":{"statusCode":302},"responseTime":3.8141999989748,"msg":"request completed"}
+{"level":30,"time":1623653828552,"pid":26192,"hostname":"433570342LS3L","reqId":"req-2","req":{"method":"GET","url":"/swagger/static/index.html","hostname":"127.0.0.1:3200","remoteAddress":"127.0.0.1","remotePort":65196},"msg":"incoming request"}
+{"level":30,"time":1623653828558,"pid":26192,"hostname":"433570342LS3L","reqId":"req-2","res":{"statusCode":304},"responseTime":5.955400004982948,"msg":"request completed"}
+{"level":30,"time":1623653828579,"pid":26192,"hostname":"433570342LS3L","reqId":"req-3","req":{"method":"GET","url":"/swagger/static/swagger-ui.css","hostname":"127.0.0.1:3200","remoteAddress":"127.0.0.1","remotePort":65196},"msg":"incoming request"}
+{"level":30,"time":1623653828580,"pid":26192,"hostname":"433570342LS3L","reqId":"req-4","req":{"method":"GET","url":"/swagger/static/swagger-ui-bundle.js","hostname":"127.0.0.1:3200","remoteAddress":"127.0.0.1","remotePort":50260},"msg":"incoming request"}
+{"level":30,"time":1623653828581,"pid":26192,"hostname":"433570342LS3L","reqId":"req-5","req":{"method":"GET","url":"/swagger/static/swagger-ui-standalone-preset.js","hostname":"127.0.0.1:3200","remoteAddress":"127.0.0.1","remotePort":65221},"msg":"incoming request"}
+{"level":30,"time":1623653828582,"pid":26192,"hostname":"433570342LS3L","reqId":"req-3","res":{"statusCode":304},"responseTime":3.0170999988913536,"msg":"request completed"}
+{"level":30,"time":1623653828584,"pid":26192,"hostname":"433570342LS3L","reqId":"req-4","res":{"statusCode":304},"responseTime":3.8944000005722046,"msg":"request completed"}
+{"level":30,"time":1623653828585,"pid":26192,"hostname":"433570342LS3L","reqId":"req-5","res":{"statusCode":304},"responseTime":4.110800005495548,"msg":"request completed"}
+{"level":30,"time":1623653828782,"pid":26192,"hostname":"433570342LS3L","reqId":"req-6","req":{"method":"GET","url":"/swagger/static/swagger-ui.css","hostname":"127.0.0.1:3200","remoteAddress":"127.0.0.1","remotePort":65221},"msg":"incoming request"}
+{"level":30,"time":1623653828783,"pid":26192,"hostname":"433570342LS3L","reqId":"req-7","req":{"method":"GET","url":"/swagger/static/swagger-ui-bundle.js","hostname":"127.0.0.1:3200","remoteAddress":"127.0.0.1","remotePort":50260},"msg":"incoming request"}
+{"level":30,"time":1623653828785,"pid":26192,"hostname":"433570342LS3L","reqId":"req-8","req":{"method":"GET","url":"/swagger/static/swagger-ui-standalone-preset.js","hostname":"127.0.0.1:3200","remoteAddress":"127.0.0.1","remotePort":65196},"msg":"incoming request"}
+{"level":30,"time":1623653828786,"pid":26192,"hostname":"433570342LS3L","reqId":"req-6","res":{"statusCode":304},"responseTime":4.134700000286102,"msg":"request completed"}
+{"level":30,"time":1623653828787,"pid":26192,"hostname":"433570342LS3L","reqId":"req-7","res":{"statusCode":304},"responseTime":3.6446999981999397,"msg":"request completed"}
+{"level":30,"time":1623653828788,"pid":26192,"hostname":"433570342LS3L","reqId":"req-8","res":{"statusCode":304},"responseTime":2.342799998819828,"msg":"request completed"}
+{"level":30,"time":1623653828876,"pid":26192,"hostname":"433570342LS3L","reqId":"req-9","req":{"method":"GET","url":"/swagger/uiConfig","hostname":"127.0.0.1:3200","remoteAddress":"127.0.0.1","remotePort":65196},"msg":"incoming request"}
+{"level":30,"time":1623653828877,"pid":26192,"hostname":"433570342LS3L","reqId":"req-9","res":{"statusCode":200},"responseTime":0.6863999962806702,"msg":"request completed"}
+{"level":30,"time":1623653828922,"pid":26192,"hostname":"433570342LS3L","reqId":"req-a","req":{"method":"GET","url":"/swagger/initOAuth","hostname":"127.0.0.1:3200","remoteAddress":"127.0.0.1","remotePort":65196},"msg":"incoming request"}
+{"level":30,"time":1623653828923,"pid":26192,"hostname":"433570342LS3L","reqId":"req-a","res":{"statusCode":200},"responseTime":0.50450000166893,"msg":"request completed"}
+{"level":30,"time":1623653828923,"pid":26192,"hostname":"433570342LS3L","reqId":"req-b","req":{"method":"GET","url":"/swagger/json","hostname":"127.0.0.1:3200","remoteAddress":"127.0.0.1","remotePort":50260},"msg":"incoming request"}
+{"level":30,"time":1623653828928,"pid":26192,"hostname":"433570342LS3L","reqId":"req-b","res":{"statusCode":200},"responseTime":4.714699998497963,"msg":"request completed"}
+{"level":30,"time":1623653874127,"pid":26192,"hostname":"433570342LS3L","reqId":"req-c","req":{"method":"POST","url":"/v1/api/mail/sendSimpleEmail","hostname":"127.0.0.1:3200","remoteAddress":"127.0.0.1","remotePort":62740},"msg":"incoming request"}
+{"level":30,"time":1623653884126,"pid":26192,"hostname":"433570342LS3L","reqId":"req-c","res":{"statusCode":200},"responseTime":9997.802500002086,"msg":"request completed"}
+{"level":30,"time":1623654095587,"pid":23024,"hostname":"433570342LS3L","msg":"Server listening at http://127.0.0.1:3200"}
+{"level":30,"time":1623654095593,"pid":23024,"hostname":"433570342LS3L","msg":"server listening on http://127.0.0.1:3200 at:->Mon Jun 14 2021 "}
+{"level":50,"time":1623654095595,"pid":23024,"hostname":"433570342LS3L","msg":"null"}
+{"level":30,"time":1623654116857,"pid":23024,"hostname":"433570342LS3L","reqId":"req-1","req":{"method":"GET","url":"/swagger","hostname":"127.0.0.1:3200","remoteAddress":"127.0.0.1","remotePort":60003},"msg":"incoming request"}
+{"level":30,"time":1623654116860,"pid":23024,"hostname":"433570342LS3L","reqId":"req-1","res":{"statusCode":302},"responseTime":2.745999999344349,"msg":"request completed"}
+{"level":30,"time":1623654116866,"pid":23024,"hostname":"433570342LS3L","reqId":"req-2","req":{"method":"GET","url":"/swagger/static/index.html","hostname":"127.0.0.1:3200","remoteAddress":"127.0.0.1","remotePort":60003},"msg":"incoming request"}
+{"level":30,"time":1623654116872,"pid":23024,"hostname":"433570342LS3L","reqId":"req-2","res":{"statusCode":304},"responseTime":5.39190000295639,"msg":"request completed"}
+{"level":30,"time":1623654116910,"pid":23024,"hostname":"433570342LS3L","reqId":"req-3","req":{"method":"GET","url":"/swagger/static/swagger-ui.css","hostname":"127.0.0.1:3200","remoteAddress":"127.0.0.1","remotePort":60003},"msg":"incoming request"}
+{"level":30,"time":1623654116912,"pid":23024,"hostname":"433570342LS3L","reqId":"req-4","req":{"method":"GET","url":"/swagger/static/swagger-ui-bundle.js","hostname":"127.0.0.1:3200","remoteAddress":"127.0.0.1","remotePort":63251},"msg":"incoming request"}
+{"level":30,"time":1623654116916,"pid":23024,"hostname":"433570342LS3L","reqId":"req-3","res":{"statusCode":304},"responseTime":6.144999995827675,"msg":"request completed"}
+{"level":30,"time":1623654116919,"pid":23024,"hostname":"433570342LS3L","reqId":"req-4","res":{"statusCode":304},"responseTime":6.853100001811981,"msg":"request completed"}
+{"level":30,"time":1623654116922,"pid":23024,"hostname":"433570342LS3L","reqId":"req-5","req":{"method":"GET","url":"/swagger/static/swagger-ui-standalone-preset.js","hostname":"127.0.0.1:3200","remoteAddress":"127.0.0.1","remotePort":62539},"msg":"incoming request"}
+{"level":30,"time":1623654116924,"pid":23024,"hostname":"433570342LS3L","reqId":"req-5","res":{"statusCode":304},"responseTime":1.4232000038027763,"msg":"request completed"}
+{"level":30,"time":1623654117119,"pid":23024,"hostname":"433570342LS3L","reqId":"req-6","req":{"method":"GET","url":"/swagger/uiConfig","hostname":"127.0.0.1:3200","remoteAddress":"127.0.0.1","remotePort":62539},"msg":"incoming request"}
+{"level":30,"time":1623654117120,"pid":23024,"hostname":"433570342LS3L","reqId":"req-6","res":{"statusCode":200},"responseTime":1.1088000014424324,"msg":"request completed"}
+{"level":30,"time":1623654117156,"pid":23024,"hostname":"433570342LS3L","reqId":"req-7","req":{"method":"GET","url":"/swagger/initOAuth","hostname":"127.0.0.1:3200","remoteAddress":"127.0.0.1","remotePort":62539},"msg":"incoming request"}
+{"level":30,"time":1623654117157,"pid":23024,"hostname":"433570342LS3L","reqId":"req-7","res":{"statusCode":200},"responseTime":0.6354999989271164,"msg":"request completed"}
+{"level":30,"time":1623654117157,"pid":23024,"hostname":"433570342LS3L","reqId":"req-8","req":{"method":"GET","url":"/swagger/json","hostname":"127.0.0.1:3200","remoteAddress":"127.0.0.1","remotePort":63251},"msg":"incoming request"}
+{"level":30,"time":1623654117162,"pid":23024,"hostname":"433570342LS3L","reqId":"req-8","res":{"statusCode":200},"responseTime":4.9070999994874,"msg":"request completed"}
+{"level":30,"time":1623654135643,"pid":23024,"hostname":"433570342LS3L","reqId":"req-9","req":{"method":"POST","url":"/v1/api/mail/sendSimpleEmail","hostname":"127.0.0.1:3200","remoteAddress":"127.0.0.1","remotePort":52470},"msg":"incoming request"}
+{"level":30,"time":1623654140436,"pid":23024,"hostname":"433570342LS3L","reqId":"req-9","res":{"statusCode":200},"responseTime":4792.5071000009775,"msg":"request completed"}
+{"level":30,"time":1623654491384,"pid":17824,"hostname":"433570342LS3L","msg":"Server listening at http://127.0.0.1:3200"}
+{"level":30,"time":1623654491390,"pid":17824,"hostname":"433570342LS3L","msg":"server listening on http://127.0.0.1:3200 at:->Mon Jun 14 2021 "}
+{"level":50,"time":1623654491392,"pid":17824,"hostname":"433570342LS3L","msg":"null"}
+{"level":30,"time":1623654496443,"pid":17824,"hostname":"433570342LS3L","reqId":"req-1","req":{"method":"POST","url":"/v1/api/mail/sendSimpleEmail","hostname":"127.0.0.1:3200","remoteAddress":"127.0.0.1","remotePort":53600},"msg":"incoming request"}
+{"level":30,"time":1623654500175,"pid":17824,"hostname":"433570342LS3L","reqId":"req-1","res":{"statusCode":200},"responseTime":3731.20870000124,"msg":"request completed"}
+{"level":30,"time":1623654723332,"pid":21704,"hostname":"433570342LS3L","msg":"Server listening at http://127.0.0.1:3200"}
+{"level":30,"time":1623654723340,"pid":21704,"hostname":"433570342LS3L","msg":"server listening on http://127.0.0.1:3200 at:->Mon Jun 14 2021 "}
+{"level":50,"time":1623654723343,"pid":21704,"hostname":"433570342LS3L","msg":"null"}
+{"level":30,"time":1623654736807,"pid":21704,"hostname":"433570342LS3L","reqId":"req-1","req":{"method":"POST","url":"/v1/api/mail/sendSimpleEmail","hostname":"127.0.0.1:3200","remoteAddress":"127.0.0.1","remotePort":59286},"msg":"incoming request"}
+{"level":30,"time":1623654739987,"pid":21704,"hostname":"433570342LS3L","reqId":"req-1","res":{"statusCode":200},"responseTime":3178.786899998784,"msg":"request completed"}
+{"level":30,"time":1623654861639,"pid":25456,"hostname":"433570342LS3L","msg":"Server listening at http://127.0.0.1:3200"}
+{"level":30,"time":1623654861645,"pid":25456,"hostname":"433570342LS3L","msg":"server listening on http://127.0.0.1:3200 at:->Mon Jun 14 2021 "}
+{"level":50,"time":1623654861648,"pid":25456,"hostname":"433570342LS3L","msg":"null"}
+{"level":30,"time":1623654876618,"pid":25456,"hostname":"433570342LS3L","reqId":"req-1","req":{"method":"POST","url":"/v1/api/mail/sendSimpleEmail","hostname":"127.0.0.1:3200","remoteAddress":"127.0.0.1","remotePort":63133},"msg":"incoming request"}
+{"level":40,"time":1623654879361,"pid":25456,"hostname":"433570342LS3L","reqId":"req-1","err":{"type":"FastifyError","message":"Reply was already sent.","stack":"FastifyError: Reply was already sent.\n    at _Reply.Reply.send (C:\\Users\\a241400\\Desktop\\projects\\Glovaro\\Glovaro.Mail.Service\\node_modules\\fastify\\lib\\reply.js:124:26)\n    at Object.<anonymous> (C:\\Users\\a241400\\Desktop\\projects\\Glovaro\\Glovaro.Mail.Service\\routes\\EmailRoutes.js:26:13)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)","name":"FastifyError","code":"FST_ERR_REP_ALREADY_SENT","statusCode":500},"msg":"Reply already sent"}
+{"level":30,"time":1623654879364,"pid":25456,"hostname":"433570342LS3L","reqId":"req-1","res":{"statusCode":400},"responseTime":2745.56780000031,"msg":"request completed"}

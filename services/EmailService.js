@@ -29,17 +29,17 @@ function EmailService(mail) {
     }
 
     async function sendTemplateEmail(from, to, subject, templateFile) {
-        return new Promise((resolve, reject)=>{
+        return new Promise(async (resolve, reject)=>{
             mail.Build.BuildFromTemplateFile(templateFile)
-                        .then(response=>{
-                            const response = await mail.Build
+                        .then(async (response) =>{
+                            const emailResponse = await mail.Build
                                             .From(from)
                                             .To(to)
                                             .Subject(subject)
                                             .MessageBody(response)
                                             .Send(true)
 
-                            resolve(response)
+                            resolve(emailResponse)
 
                         })
                         .catch(error=>reject(error))
