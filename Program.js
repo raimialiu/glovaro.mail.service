@@ -29,7 +29,6 @@ Startup.registerModule("logger", winston)
 
 
 
-
 Startup.AddService("fastify-swagger",swagger.options)
 fastify.register(require("./routes/EmailRoutes"), {prefix:'/v1/api/mail'})
 
@@ -43,7 +42,7 @@ function AppServiceHost(port, hostname) {
         fastify.log.error({Message:er.message, 
                 _raw: JSON.stringify(error), 
                 occurAt:timestamp, path:request.path, method:request.method})
-        reply.status = 400
+        reply.status = 500
         reply.send({Message:'system malfunction, please try again'})
     })
 

@@ -38,10 +38,10 @@ function StartUp(fastify) {
 
     function handler(handlerSignature, isAsync=true, ...args) {
         if(isAsync) {
-            return async (args)=> handlerSignature
+            return async ()=> handlerSignature(args)
         }
 
-        return (args)=>handlerSignature
+        return ()=>handlerSignature(args)
     }
 
     const Types = {

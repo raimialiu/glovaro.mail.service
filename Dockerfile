@@ -1,7 +1,8 @@
 FROM alpine:latest
 
 RUN apk update
-RUN apk add nodejs nodejs-npm
+RUN apk add nodejs
+RUN apk add npm
 
 RUN mkdir -p /app/glovaro.mail
 
@@ -10,7 +11,7 @@ COPY package*.json /app/glovaro.mail
 
 WORKDIR /app/glovaro.mail
 
-RUN npm -s install
+RUN npm install
 
 COPY . /app/glovaro.mail/
 
