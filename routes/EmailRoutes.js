@@ -26,5 +26,31 @@ module.exports = function(fastify, options, done) {
         rep.send(result)
     })
 
+    fastify.post('/activateEmail', {
+        schema:{
+            tags:['Mail'],
+            description: 'send simple mail',
+            body:{
+                type:'object',
+                properties:{
+                    email: {type:'string'},
+                    emailToken:{type:'string'}
+                    
+                }
+            }
+        }
+    }, async (req, rep)=>{
+        const email = req.body.email
+        const token = req.body.emailToken
+        const result  = await EmailController.sendActivateEmail(email, token)
+        const {statusCode} =result
+
+        if(statusCode =="99") {
+            rep.statusCode = 400
+            rep.send(result)
+        }
+        rep.send(result)
+    })
+
     done()
 }

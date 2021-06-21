@@ -25,6 +25,20 @@ function EmailController(fastify) {
         return dt
     }
 
+    async function sendActivateEmail(email, email_token) {
+        const fulUrl = `http://www.glovaro.com/api/v1/email/activate?token=${email_token}`
+        _logger.info(`sending activation account to ${email} with token ${email_token}`)
+        const placeholder = [{placeholder:"{user.email_token}", replacer:fulUrl},{
+            placeholder:"{user.email}", placeholder:email
+        }, {
+            placeholder:"{user.subject}", replacer:"Activate your account"
+        }]
+        const sendResult = await emailService.sendActiveAccountEmail(email, placeholder)
+        _logger.info(`activate account email sending result ${JSON.stringify(sendResult)}`)
+
+        return successRessponse(sendResult)
+    }
+
     async function SendMail(request) {
         const to = request.body.to;
         const subject = request.body.subject
@@ -56,7 +70,8 @@ function EmailController(fastify) {
     }
 
     return {
-        SendMail
+        SendMail,
+        sendActivateEmail
     }
 
 }

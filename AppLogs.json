@@ -29,3 +29,25 @@
 {"message":"server listening on http://127.0.0.1:3200 at:->Mon Jun 14 2021 ","level":"info"}
 {"message":"request payload for sending mail, details: {\"to\":\"raimialiu428@gmail.com\",\"subject\":\"GLovaro Email.API\",\"message\":\"testing glovaro email api\",\"cc\":[\"olatunderaimialiu@gmail.com\"]}, at Mon Jun 14 2021 08:37:13 GMT+0100 (West Africa Standard Time)08:37:13 GMT+0100 (West Africa Standard Time)","level":"info"}
 {"message":"send mail response: {\"accepted\":[\"raimialiu428@gmail.com\"],\"rejected\":[],\"envelopeTime\":1320,\"messageTime\":751,\"messageSize\":312,\"response\":\"250 2.0.0 Ok: queued as EFC118009A\",\"envelope\":{\"from\":\"no_reply@glovaro.com\",\"to\":[\"raimialiu428@gmail.com\"]},\"messageId\":\"<ebd34f37-5e93-e01c-ad46-331a56a745eb@glovaro.com>\"} at: Mon Jun 14 2021 08:37:18 GMT+0100 (West Africa Standard Time)08:37:18 GMT+0100 (West Africa Standard Time)","level":"info"}
+{"message":"server listening on http://127.0.0.1:3200 at:->Mon Jun 21 2021 ","level":"info"}
+{"message":"sending activation account to raimialiu428@gmail.com with token 678672667847687843","level":"info"}
+{"message":"sending activation account to raimialiu428@gmail.com with token 678672667847687843","level":"info"}
+{"message":"server listening on http://127.0.0.1:3200 at:->Mon Jun 21 2021 ","level":"info"}
+{"message":"sending activation account to raimialiu428@gmail.com with token 678672667847687843","level":"info"}
+{"message":"activate account email sending result {\"accepted\":[\"raimialiu428@gmail.com\"],\"rejected\":[],\"envelopeTime\":1225,\"messageTime\":1204,\"messageSize\":68626,\"response\":\"250 2.0.0 Ok: queued as DA7AE6011B\",\"envelope\":{\"from\":\"noreply@glovaro.com\",\"to\":[\"raimialiu428@gmail.com\"]},\"messageId\":\"<1041d2c7-8424-9ba3-6b31-6e255ac3d469@glovaro.com>\"}","level":"info"}
+{"message":"server listening on http://127.0.0.1:3200 at:->Mon Jun 21 2021 ","level":"info"}
+{"message":"sending activation account to raimialiu428@gmail.com with token 678672667847687843","level":"info"}
+{"message":"activate account email sending result {\"accepted\":[\"raimialiu428@gmail.com\"],\"rejected\":[],\"envelopeTime\":2026,\"messageTime\":2555,\"messageSize\":545006,\"response\":\"250 2.0.0 Ok: queued as F17AB600FE\",\"envelope\":{\"from\":\"noreply@glovaro.com\",\"to\":[\"raimialiu428@gmail.com\"]},\"messageId\":\"<745aceda-1ed5-75c9-c221-5543d731c9a5@glovaro.com>\"}","level":"info"}
+{"message":"server listening on http://127.0.0.1:3200 at:->Mon Jun 21 2021 ","level":"info"}
+{"message":"sending activation account to olatunderaimialiu@gmail.com with token 678672667847687843","level":"info"}
+{"message":"activate account email sending result {\"accepted\":[\"olatunderaimialiu@gmail.com\"],\"rejected\":[],\"envelopeTime\":1091,\"messageTime\":2784,\"messageSize\":545443,\"response\":\"250 2.0.0 Ok: queued as 29D5A6010D\",\"envelope\":{\"from\":\"noreply@glovaro.com\",\"to\":[\"olatunderaimialiu@gmail.com\"]},\"messageId\":\"<517336be-043e-6cd1-86bb-a57596346e49@glovaro.com>\"}","level":"info"}
+{"message":"sending activation account to olatunderaimialiu@gmail.com with token 678672667847687843","level":"info"}
+{"message":"activate account email sending result {\"accepted\":[\"olatunderaimialiu@gmail.com\"],\"rejected\":[],\"envelopeTime\":1204,\"messageTime\":9155,\"messageSize\":545443,\"response\":\"250 2.0.0 Ok: queued as F25C96010D\",\"envelope\":{\"from\":\"noreply@glovaro.com\",\"to\":[\"olatunderaimialiu@gmail.com\"]},\"messageId\":\"<d1fc4c57-423e-c4eb-a0a3-f228eeabc5e5@glovaro.com>\"}","level":"info"}
+{"message":"server listening on http://127.0.0.1:3200 at:->Mon Jun 21 2021 ","level":"info"}
+{"message":"sending activation account to olatunderaimialiu@gmail.com with token 678672667847687843","level":"info"}
+{"message":"server listening on http://127.0.0.1:3200 at:->Mon Jun 21 2021 ","level":"info"}
+{"message":"sending activation account to olatunderaimialiu@gmail.com with token 678672667847687843","level":"info"}
+{"message":"activate account email sending result {\"accepted\":[\"olatunderaimialiu@gmail.com\"],\"rejected\":[],\"envelopeTime\":1220,\"messageTime\":1025,\"messageSize\":68743,\"response\":\"250 2.0.0 Ok: queued as 95B526010D\",\"envelope\":{\"from\":\"noreply@glovaro.com\",\"to\":[\"olatunderaimialiu@gmail.com\"]},\"messageId\":\"<bc9b71a7-91c8-e90a-6f1b-0bfb4257a84e@glovaro.com>\"}","level":"info"}
+{"message":"server listening on http://127.0.0.1:3200 at:->Mon Jun 21 2021 ","level":"info"}
+{"message":"sending activation account to raimialiu428@gmail.com with token 678672667847687843","level":"info"}
+{"message":"activate account email sending result {\"accepted\":[\"raimialiu428@gmail.com\"],\"rejected\":[],\"envelopeTime\":1505,\"messageTime\":5208,\"messageSize\":68738,\"response\":\"250 2.0.0 Ok: queued as A24446010D\",\"envelope\":{\"from\":\"noreply@glovaro.com\",\"to\":[\"raimialiu428@gmail.com\"]},\"messageId\":\"<c8a6dd2a-df6c-4552-b032-7cfb0ba8a242@glovaro.com>\"}","level":"info"}
