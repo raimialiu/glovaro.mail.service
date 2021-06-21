@@ -1,12 +1,8 @@
-FROM alpine:latest
-
-RUN apk update
-RUN apk add nodejs nodejs-npm
+FROM node
 
 RUN mkdir -p /app/glovaro.mail
 
 COPY package*.json /app/glovaro.mail
-
 
 WORKDIR /app/glovaro.mail
 

@@ -1,6 +1,6 @@
 const swagger = require("./config/swagger")
 const fastify = require("fastify")({
-    logger:{
+   logger:{
         file:"email_logs.json"
     }
 })
