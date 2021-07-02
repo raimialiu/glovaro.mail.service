@@ -1,0 +1,17 @@
+{"message":"sending activation account to raimialiu428@gmail.com with token 7854378567845879","level":"info"}
+{"message":"server listening on http://127.0.0.1:3200 at:->Fri Jul 02 2021 ","level":"info"}
+{"message":"sending activation account to raimialiu428@gmail.com with token 7854378567845879","level":"info"}
+{"message":"activate account email sending result {\"accepted\":[\"raimialiu428@gmail.com\"],\"rejected\":[],\"envelopeTime\":882,\"messageTime\":881,\"messageSize\":68226,\"response\":\"250 2.0.0 Ok: queued as DAA26600D0\",\"envelope\":{\"from\":\"noreply@glovaro.com\",\"to\":[\"raimialiu428@gmail.com\"]},\"messageId\":\"<1cbfe74e-8fc2-8789-648f-f8782ac3b057@glovaro.com>\"}","level":"info"}
+{"message":"server listening on http://127.0.0.1:3200 at:->Fri Jul 02 2021 ","level":"info"}
+{"message":"sending activation account to raimialiu428@gmail.com with token 7854378567845879","level":"info"}
+{"message":"activate account email sending result {\"accepted\":[\"raimialiu428@gmail.com\"],\"rejected\":[],\"envelopeTime\":837,\"messageTime\":1054,\"messageSize\":68226,\"response\":\"250 2.0.0 Ok: queued as 08BDA6005D\",\"envelope\":{\"from\":\"noreply@glovaro.com\",\"to\":[\"raimialiu428@gmail.com\"]},\"messageId\":\"<a37a0ffb-bf53-91b9-f244-c7fc8298baa2@glovaro.com>\"}","level":"info"}
+{"message":"request payload for sending mail, details: {\"to\":\"raimialiu428@gmail.com\",\"subject\":\"simple mail\",\"message\":\"<strong>Hello</strong>\",\"cc\":[\"olatunderaimialiu@gmail.com\"]}, at Fri Jul 02 2021 11:48:59 GMT+0100 (West Africa Standard Time)11:48:59 GMT+0100 (West Africa Standard Time)","level":"info"}
+{"message":"send mail response: {\"accepted\":[\"raimialiu428@gmail.com\",\"olatunderaimialiu@gmail.com\",\"olatunde.raimi@stanbicibtc.com\"],\"rejected\":[],\"envelopeTime\":1098,\"messageTime\":613,\"messageSize\":622,\"response\":\"250 2.0.0 Ok: queued as E555A60105\",\"envelope\":{\"from\":\"noreply@glovaro.com\",\"to\":[\"raimialiu428@gmail.com\",\"olatunderaimialiu@gmail.com\",\"olatunde.raimi@stanbicibtc.com\"]},\"messageId\":\"<04d6546e-3dd2-d2a2-89f2-50a8c0db2630@glovaro.com>\"} at: Fri Jul 02 2021 11:49:03 GMT+0100 (West Africa Standard Time)11:49:03 GMT+0100 (West Africa Standard Time)","level":"info"}
+{"message":"server listening on http://127.0.0.1:3200 at:->Fri Jul 02 2021 ","level":"info"}
+{"message":"server listening on http://127.0.0.1:3200 at:->Fri Jul 02 2021 ","level":"info"}
+{"message":"server listening on http://127.0.0.1:3200 at:->Fri Jul 02 2021 ","level":"info"}
+{"message":"request payload for sending mail, details: {\"to\":[\"string\"],\"subject\":\"string\",\"message\":\"string\",\"cc\":[\"string\"]}, at Fri Jul 02 2021 13:04:44 GMT+0100 (West Africa Standard Time)13:04:44 GMT+0100 (West Africa Standard Time)","level":"info"}
+{"code":"EENVELOPE","command":"API","level":"error"}
+{"message":"send mail response: false at: Fri Jul 02 2021 13:04:45 GMT+0100 (West Africa Standard Time)13:04:45 GMT+0100 (West Africa Standard Time)","level":"info"}
+{"message":"server listening on http://127.0.0.1:3200 at:->Fri Jul 02 2021 ","level":"info"}
+{"message":"server listening on http://127.0.0.1:3200 at:->Fri Jul 02 2021 ","level":"info"}

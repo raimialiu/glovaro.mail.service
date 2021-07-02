@@ -4,18 +4,20 @@ const fs = require("fs")
 function EmailService(mail) {
    // const mail = MailClient.instance(options)
 
-    async function SendMail(from, to, title, message, isHtml=false) {
+    async function SendMail(from, to, title, message, cc=null,bcc=null,isHtml=false) {
         return await mail.Build
                           .From(from)
                           .To(to)
                           .Subject(title)
+                          .cc(cc)
+                          .Bcc(bcc)
                           .MessageBody(message)
                           .Send(isHtml)
     }
 
     async function sendActiveAccountEmail(to_email, placeholder) {
         return new Promise((resolve, reject)=>{
-            const templateFile = "ActivateAccount.html"
+            const templateFile = "C:\\Users\\a241400\\Desktop\\projects\\Glovaro\\Glovaro.Mail.Service\\ActivateAccount.html"
         fs.readFile(templateFile, async (er, data)=>{
                 if(!er) {
                     const _data = Buffer.from(data)
@@ -24,7 +26,7 @@ function EmailService(mail) {
                         fullStringData = (fullStringData+"").replace(k["placeholder"], k["replacer"])
                     }
                     console.log("fn", fullStringData)
-                    const sendResult = await SendMail('noreply@glovaro.com', to_email, 'Activate account', fullStringData, true)
+                    const sendResult = await SendMail('noreply@glovaro.com', to_email, 'Activate account', fullStringData, [], [], true)
 
                     resolve(sendResult)
                 }
@@ -36,14 +38,14 @@ function EmailService(mail) {
 
     }
 
-    async function SendMultiple(from, to=[], title, message, isHtml=false) {
+    async function SendMultiple(from, to=[], title, message, cc=[], bcc=[],isHtml=false) {
         var responses = [];
         for(let email of to) {
             let currentObject = {
                 from,
                 to:email
             }
-            var response = await SendMail(from, email, title, message, isHtml)
+            var response = await SendMail(from, email, title, message,cc, bcc, isHtml)
             currentObject["data"] = response
             responses.push(response)
         }
@@ -93,11 +95,16 @@ function EmailService(mail) {
         
     }
 
-    async function SendEmailWithAttachment(from, to=[], title, message, attachments=[], isHtml=false) {
+    async function SendEmailWithAttachment(from, to=[], title, message, attachments=[], 
+            cc=[],
+            bcc=[],
+            isHtml=false) {
         let buildResult = mail.Build
                     .From(from)
                     .To(to)
                     .Subject(title)
+                    .Bcc(bcc)
+                    .cc(cc)
                     .MessageBody(message)
                     .AddAttachment()
         for(let k of attachments) {

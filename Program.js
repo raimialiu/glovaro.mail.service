@@ -4,8 +4,10 @@ const fastify = require("fastify")({
         file:"email_logs.json"
     }
 })
+const SimpleFormPlugin = require("fastify-simple-form")
 const Startup = require("./Startup")(fastify)
 const {createLogger, transports} = require("winston")
+const {fileUploadMiddleare} = require("./services/middleware/captureIncomingFile")
 
 // register module...it becomes part of fastify object
 const winston = createLogger({
@@ -23,14 +25,15 @@ const mail = MailClient.instance({
         secure:true,
         auth:{
                 user: 'noreply@glovaro.com',
-                pass:'DevPassword21$'
+                pass:'toJwyw-ezeqqi6-tobjur'
             }
         
 })
 
-// mail.on("SendError", (er)=>{
-//     winston.error(er)
-// })
+mail.on("SendError", (er)=>{
+    winston.error(er)
+    console.log(er)
+})
 
 // === MODULES  ===== //
 Startup.registerModule("mail", mail)
@@ -41,7 +44,7 @@ Startup.registerModule("logger", winston)
 
 Startup.AddService("fastify-swagger",swagger.options)
 fastify.register(require("./routes/EmailRoutes"), {prefix:'/v1/api/mail'})
-
+fastify.register(require('fastify-multipart'))
 
 function AppServiceHost(port, hostname) {
     const _port = port
@@ -55,6 +58,9 @@ function AppServiceHost(port, hostname) {
         reply.status = 500
         reply.send({Message:'system malfunction, please try again'})
     })
+
+    // await fastify.register(require("fastify-express"))
+    // fastify.use(fileUploadMiddleare)
 
     function start() {
         
