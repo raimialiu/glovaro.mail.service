@@ -1,9 +1,5 @@
 const swagger = require("./config/swagger")
-const fastify = require("fastify")({
-   logger:{
-        file:"email_logs.json"
-    }
-})
+const fastify = require("fastify")()
 const SimpleFormPlugin = require("fastify-simple-form")
 const Startup = require("./Startup")(fastify)
 const {createLogger, transports} = require("winston")

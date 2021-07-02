@@ -3,3 +3,5 @@
     "Message":"Error: body should be object",
     "_raw":"{\"validation\":[{\"keyword\":\"type\",\"dataPath\":\"\",\"schemaPath\":\"#/type\",\"params\":{\"type\":\"object\"},\"message\":\"should be object\"}],\"validationContext\":\"body\"}","occurAt":"Fri Jul 02 2021","method":"POST"}
 {"level":30,"time":1625228061308,"pid":17900,"hostname":"433570342LS3L","reqId":"req-3","res":{"statusCode":400},"responseTime":1.5058999955654144,"msg":"request completed"}
+{"level":30,"time":1625233389804,"pid":17900,"hostname":"433570342LS3L","reqId":"req-4","req":{"method":"POST","url":"/v1/api/mail/sendMultipleMail","hostname":"localhost:3200","remoteAddress":"127.0.0.1","remotePort":62891},"msg":"incoming request"}
+{"level":30,"time":1625233398278,"pid":17900,"hostname":"433570342LS3L","reqId":"req-4","res":{"statusCode":200},"responseTime":8473.686100006104,"msg":"request completed"}
