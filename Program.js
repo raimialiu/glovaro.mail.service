@@ -16,7 +16,17 @@ const winston = createLogger({
 const {MailClient} = require("glovaro-mailclient")
 //const { default: s } = require("fluent-json-schema")
 
-const mail = MailClient.instance()
+const mail = MailClient.instance({
+    
+        host:'mail.privateemail.com',
+        port: 465,
+        secure:true,
+        auth:{
+                user: 'noreply@glovaro.com',
+                pass:'DevPassword21$'
+            }
+        
+})
 
 // mail.on("SendError", (er)=>{
 //     winston.error(er)
@@ -25,7 +35,6 @@ const mail = MailClient.instance()
 // === MODULES  ===== //
 Startup.registerModule("mail", mail)
 Startup.registerModule("logger", winston)
-
 
 
 
@@ -43,7 +52,7 @@ function AppServiceHost(port, hostname) {
         fastify.log.error({Message:er.message, 
                 _raw: JSON.stringify(error), 
                 occurAt:timestamp, path:request.path, method:request.method})
-        reply.status = 400
+        reply.status = 500
         reply.send({Message:'system malfunction, please try again'})
     })
 
@@ -55,7 +64,8 @@ function AppServiceHost(port, hostname) {
                     fastify.log.info(`server listening on ${address} at:->${timestamp} `)
                     winston.info(`server listening on ${address} at:->${timestamp} `)
                 }
-        
+        //500
+        // 
                 fastify.log.error(JSON.stringify(er))
             })
     }

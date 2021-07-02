@@ -2,14 +2,15 @@ FROM node
 
 RUN mkdir -p /app/glovaro.mail
 
+
+WORKDIR /app/glovaro.mail
+
 COPY package*.json /app/glovaro.mail
 
 WORKDIR /app/glovaro.mail
 
-RUN npm -s install
+RUN npm install
 
 COPY . /app/glovaro.mail/
 
-EXPOSE 3200
-
-ENTRYPOINT npm start
+CMD [ "npm", "start" ]
