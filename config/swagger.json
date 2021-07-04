@@ -1,0 +1,15 @@
+{
+    "App_Name":"GLovaro.Mail.Service",
+    "Version":"one",
+    "DevelopersContact":"glovarohq@glovaro.com",
+    "Contact":{
+        "City":"Lagos"
+    },
+    "Mail_Host":"mail.privateemail.com",
+    "Mail_Port": 465,
+    "Mail_Is_Secure":true,
+    "Mail_Auth":{
+            "user": "",
+            "pass":""
+        }
+}

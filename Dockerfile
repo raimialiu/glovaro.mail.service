@@ -1,16 +1,8 @@
-FROM node
-
-RUN mkdir -p /app/glovaro.mail
-
-
-WORKDIR /app/glovaro.mail
-
-COPY package*.json /app/glovaro.mail
-
-WORKDIR /app/glovaro.mail
-
+FROM node:alpine
+WORKDIR /usr/src/app
+COPY package*.json ./
 RUN npm install
-
-COPY . /app/glovaro.mail/
-
-CMD [ "npm", "start" ]
+COPY . .
+ENV APP_PORT 8080
+EXPOSE 8080
+CMD [ "node", "App.js" ]
