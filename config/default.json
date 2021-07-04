@@ -9,7 +9,7 @@
     "Mail_Port": 465,
     "Mail_Is_Secure":true,
     "Mail_Auth":{
-            "user": "",
-            "pass":""
+        "user": "noreply@glovaro.com",
+        "pass":"toJwyw-ezeqqi6-tobjur"
         }
 }

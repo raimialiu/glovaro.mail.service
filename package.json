@@ -10,6 +10,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "config": "^3.3.6",
     "email-templates": "^8.0.7",
     "fastify": "^3.16.2",
     "fastify-cors": "^6.0.1",

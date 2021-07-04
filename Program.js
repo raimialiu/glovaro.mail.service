@@ -2,9 +2,10 @@ const swagger = require("./config/swagger")
 const fastify = require("fastify")()
 const SimpleFormPlugin = require("fastify-simple-form")
 const Startup = require("./Startup")(fastify)
-const {createLogger, transports} = require("winston")
+const {createLogger, transports, config} = require("winston")
 const {fileUploadMiddleare} = require("./services/middleware/captureIncomingFile")
 const {ConfigReader, ConfigTypes} = require("./services/utilities")
+const confg = require("config")
 
 // register module...it becomes part of fastify object
 const winston = createLogger({
@@ -15,16 +16,13 @@ const winston = createLogger({
 const {MailClient} = require("glovaro-mailclient")
 //const { default: s } = require("fluent-json-schema")
 
-const _config = new ConfigReader({types:ConfigTypes.JSON, "fileName":"./config/swagger.json"})
+const mail_host = confg.get('Mail_Host')
+const mail_is_secure = true
+const mail_port = confg.get('Mail_Port')
+const user = process.env.mail_auth_user || confg.get('Mail_Auth.user')
+const pass = process.env.mail_auth_pass || confg.get('Mail_Auth.pass')
 
-async function ReadConfigSettings() {
-    const mail_host = await _config.Get('Mail_Host')
-    const mail_is_secure = await _config.Get('Mail_Is_Secure')
-    const mail_port = await _config.Get('Mail_Port');
-    const user = process.env.mail_auth_user
-    const pass = process_env.mail_auth_pass;
-
-    const mail = MailClient.instance({
+const mail = MailClient.instance({
             
                 host:mail_host,
                 port: mail_port,
@@ -33,20 +31,16 @@ async function ReadConfigSettings() {
                         user,pass                      
                     }
                 
-        })
+})
 
-        mail.on("SendError", (er)=>{
-            winston.error(er)
-            console.log(er)
-        })
-        Startup.registerModule("mail", mail)
-}
-
-ReadConfigSettings()
+mail.on("SendError", (er)=>{
+        winston.error(er)
+        console.log(er)
+})
 
 
 // === MODULES  ===== //
-
+Startup.registerModule("mail", mail)
 Startup.registerModule("logger", winston)
 
 

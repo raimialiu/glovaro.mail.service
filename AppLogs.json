@@ -1,2 +1,22 @@
 {"message":"server listening on http://127.0.0.1:57052 at:->Sat Jul 03 2021 ","level":"info"}
 {"message":"server listening on http://127.0.0.1:54082 at:->Sat Jul 03 2021 ","level":"info"}
+{"message":"server listening on http://127.0.0.1:58934 at:->Sun Jul 04 2021 ","level":"info"}
+{"message":"server listening on http://127.0.0.1:58953 at:->Sun Jul 04 2021 ","level":"info"}
+{"message":"server listening on http://127.0.0.1:54439 at:->Sun Jul 04 2021 ","level":"info"}
+{"message":"server listening on http://127.0.0.1:60024 at:->Sun Jul 04 2021 ","level":"info"}
+{"message":"server listening on http://127.0.0.1:62065 at:->Sun Jul 04 2021 ","level":"info"}
+{"message":"request payload for sending mail, details: {\"to\":\"raimialiu428@gmail.com\",\"subject\":\"simple mail\",\"message\":\"<strong>Hello</strong>\",\"cc\":[\"olatunderaimialiu@gmail.com\"]}, at Sun Jul 04 2021 16:12:15 GMT+0100 (West Africa Standard Time)16:12:15 GMT+0100 (West Africa Standard Time)","level":"info"}
+{"errno":-4078,"code":"ESOCKET","syscall":"connect","address":"127.0.0.1","port":465,"command":"CONN","level":"error"}
+{"message":"send mail response: false at: Sun Jul 04 2021 16:12:15 GMT+0100 (West Africa Standard Time)16:12:15 GMT+0100 (West Africa Standard Time)","level":"info"}
+{"message":"request payload for sending mail, details: {\"to\":\"raimialiu428@gmail.com\",\"subject\":\"simple mail\",\"message\":\"<strong>Hello</strong>\",\"cc\":[\"olatunderaimialiu@gmail.com\"]}, at Sun Jul 04 2021 16:12:56 GMT+0100 (West Africa Standard Time)16:12:56 GMT+0100 (West Africa Standard Time)","level":"info"}
+{"errno":-4078,"code":"ESOCKET","syscall":"connect","address":"127.0.0.1","port":465,"command":"CONN","level":"error"}
+{"message":"error","level":"error"}
+{"errno":-4078,"code":"ESOCKET","syscall":"connect","address":"127.0.0.1","port":465,"command":"CONN","level":"error"}
+{"message":"send mail response: false at: Sun Jul 04 2021 16:12:56 GMT+0100 (West Africa Standard Time)16:12:56 GMT+0100 (West Africa Standard Time)","level":"info"}
+{"message":"server listening on http://127.0.0.1:57403 at:->Sun Jul 04 2021 ","level":"info"}
+{"message":"request payload for sending mail, details: {\"to\":\"raimialiu428@gmail.com\",\"subject\":\"simple mail\",\"message\":\"<strong>Hello</strong>\",\"cc\":[\"olatunderaimialiu@gmail.com\"]}, at Sun Jul 04 2021 16:13:30 GMT+0100 (West Africa Standard Time)16:13:30 GMT+0100 (West Africa Standard Time)","level":"info"}
+{"code":"EAUTH","command":"API","level":"error"}
+{"message":"send mail response: false at: Sun Jul 04 2021 16:13:32 GMT+0100 (West Africa Standard Time)16:13:32 GMT+0100 (West Africa Standard Time)","level":"info"}
+{"message":"server listening on http://127.0.0.1:55956 at:->Sun Jul 04 2021 ","level":"info"}
+{"message":"request payload for sending mail, details: {\"to\":\"raimialiu428@gmail.com\",\"subject\":\"simple mail\",\"message\":\"<strong>Hello</strong>\",\"cc\":[\"olatunderaimialiu@gmail.com\"]}, at Sun Jul 04 2021 16:24:51 GMT+0100 (West Africa Standard Time)16:24:51 GMT+0100 (West Africa Standard Time)","level":"info"}
+{"message":"send mail response: {\"accepted\":[\"raimialiu428@gmail.com\",\"olatunderaimialiu@gmail.com\"],\"rejected\":[],\"envelopeTime\":1365,\"messageTime\":638,\"messageSize\":622,\"response\":\"250 2.0.0 Ok: queued as 87F0860152\",\"envelope\":{\"from\":\"noreply@glovaro.com\",\"to\":[\"raimialiu428@gmail.com\",\"olatunderaimialiu@gmail.com\"]},\"messageId\":\"<64abfbf3-cf51-aa1f-80d3-18189c5c14f6@glovaro.com>\"} at: Sun Jul 04 2021 16:24:54 GMT+0100 (West Africa Standard Time)16:24:54 GMT+0100 (West Africa Standard Time)","level":"info"}
