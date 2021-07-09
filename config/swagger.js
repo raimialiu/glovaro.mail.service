@@ -1,5 +1,5 @@
-const port = process.env.PORT == null || process.env.PORT == undefined ? 3000 : process.env.PORT == null
-const hostname = process.env.hostname == null || process.env.hostname == undefined ? 'localhost': process.env.hostname
+const port = process.env.PORT
+const hostname ='localhost'
 exports.options ={
     routePrefix: "/swagger",
     exposeRoute: true,
