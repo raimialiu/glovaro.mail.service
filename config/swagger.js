@@ -1,5 +1,5 @@
 const port = process.env.PORT
-const hostname ='localhost'
+const hostname ='0.0.0.0'
 exports.options ={
     routePrefix: "/swagger",
     exposeRoute: true,
