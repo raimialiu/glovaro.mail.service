@@ -11,6 +11,6 @@ const hostname = process.env.hostname
 
 // Start();
 
-const app = AppServiceHost(port, 'localhost')
+const app = AppServiceHost(port, '0.0.0.0')
 app.start()
 
