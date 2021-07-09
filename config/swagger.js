@@ -1,4 +1,4 @@
-const port = process.env.APP_PORT
+const port = process.env.PORT == null || process.env.PORT == undefined ? 3000 : process.env.PORT == null
 const hostname = process.env.hostname
 exports.options ={
     routePrefix: "/swagger",
