@@ -1,3 +1,5 @@
+const port = process.env.APP_PORT
+const hostname = process.env.hostname
 exports.options ={
     routePrefix: "/swagger",
     exposeRoute: true,
@@ -11,7 +13,7 @@ exports.options ={
         url: "https://swagger.io",
         description: "https://www.glovaro.io",
       },
-      host: '127.0.0.1:3200',
+      host: hostname+":"+port,
     //  host: "glovaro-backend.herokuapp.com/",
       schemes: ["http"],
       consumes: ["application/json"],

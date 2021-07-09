@@ -56,6 +56,7 @@ function AppServiceHost(port, hostname) {
     fastify.setErrorHandler(function(error, request, reply){
         const er = new Error(error)
         const timestamp = (new Date()).toDateString()
+        console.log(error)
         fastify.log.error({Message:er.message, 
                 _raw: JSON.stringify(error), 
                 occurAt:timestamp, path:request.path, method:request.method})
